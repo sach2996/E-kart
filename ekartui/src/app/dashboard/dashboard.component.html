@@ -70,9 +70,11 @@
               
               <div class="product-content">
                   <h3 class="title"><a (click)="prodinfo(product.displayName)">{{product.displayName}}</a></h3>
-                  <div class="price">Rs.{{product.price}}
-                      
-                  </div>
+                  
+                        <p class="price"><b> Price: </b> Rs.{{product.amount}}
+                            <span *ngIf="product.amount!=product.price">Rs.{{product.price}}</span>
+                        </p>  
+                  
                   <div class="description">{{product.shortDesc}}</div>
               </div>
           </div>
