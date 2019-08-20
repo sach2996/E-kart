@@ -1,0 +1,48 @@
+<br>
+<div class="row">
+  <div class="col-lg-4"></div>
+  <div class="col-lg-4">
+      
+        <input  type="text" [(ngModel)]="displayName" (input)="search()" class="form-control mr-sm-2 CommentBox input-group" />
+        <div class="col-lg-4">
+          </div>
+      </div>
+      
+</div>
+
+    <div class="row-fluid"></div>
+    <div class="span12 text-center">       
+    Search Here
+    <div class="col-lg-4">
+            </div>
+        </div>
+        
+  
+<div class="row card-group">
+    <br>
+    <div class="col-4" *ngFor="let product of result">
+            <div *ngIf="product.length==0"><h1>No Product Found.</h1></div>
+      <div class="product-grid">
+          <div >
+              <a href="#">
+                  <img class="pic-1" src="../../assets/{{product.displayName}}.jpg" alt="Smiley face" height="200" width="200">
+                  
+              </a>
+              <ul class="social">
+              <li><button type="submit" (click)="addWishlist(product)" class="btn btn-primary">Wishlist</button></li>
+              <li><button type="submit" (click)="addToCart(product)" class="btn btn-primary">Cart</button></li>
+            </ul>
+            <div *ngIf="product.discount">
+              <span class="product-new-label">Discount</span>
+              <span class="product-discount-label">{{product.discount}}%</span></div>
+          </div>
+          
+          <div class="product-content">
+              <h3 class="title">{{product.displayName}}</h3>
+              <div class="price">{{product.price}}
+                  
+              </div>
+              <div class="description">{{product.shortDesc}}</div>
+          </div>
+      </div>
+  </div>

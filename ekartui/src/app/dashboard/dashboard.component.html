@@ -1,0 +1,80 @@
+<div class="classsachin"><br>
+<div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            
+              <input placeholder="Search here.." type="text" [(ngModel)]="displayName" (input)="search()" class="form-control mr-sm-2 CommentBox input-group" />
+              <div class="col-lg-4">
+                </div>
+            </div>
+            
+      </div>
+      <br>
+            </div>   
+            <h1 class="classsachin" *ngIf="result.length==0" style="text-align: center">No Product Found</h1>   
+            <div class="classsachin"  *ngIf="loggedIn && !hideDeals ">
+                    <div class="row-fluid " ></div>
+                        <div class="span12 text-center">       
+                       <h3>Product Recommended based on your orders.</h3>
+                        <div class="col-lg-4">
+                                </div>
+                            </div>
+                    <div class="container ">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-md-offset-1">
+                    
+                    <app-recommendations></app-recommendations>
+                    </div>
+                    </div>
+                    </div>
+                    
+                    <br><br>
+                    </div>
+<div class="classsachin" *ngIf="!hideDeals">
+<div class="row-fluid " ></div>
+    <div class="span12 text-center">       
+   <h1> Deals of the Day</h1>
+    <div class="col-lg-4">
+            </div>
+        </div>
+<div class="container ">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-md-offset-1">
+<app-deals></app-deals>
+
+</div>
+</div>
+</div>
+
+<br><br>
+</div>
+
+<!--<h1 *ngIf="result.length==0" style="text-align: center">No Product Found</h1>-->
+  <div class="row card-group ">
+      <div class="col-4" *ngFor="let product of result">
+
+          <div class="product-grid" >
+              <div >
+                  <a  (click)="prodinfo(product.displayName)">
+                      <img class="pic-1" src="../../assets/{{product.displayName}}.jpg" alt="Smiley face" height="200" width="200">
+                      
+                  </a>
+                  <ul class="social">
+                  <li *ngIf="loggedIn"><button type="submit" (click)="addWishlist(product)" class="btn btn-primary">Wishlist</button></li>
+                  <li><button type="submit" (click)="addToCart(product)" class="btn btn-primary">Cart</button></li>
+                </ul>
+                <div *ngIf="product.discount">
+                  <span class="product-new-label">Discount</span>
+                  <span class="product-discount-label">{{product.discount}}%</span></div>
+              </div>
+              
+              <div class="product-content">
+                  <h3 class="title"><a (click)="prodinfo(product.displayName)">{{product.displayName}}</a></h3>
+                  <div class="price">Rs.{{product.price}}
+                      
+                  </div>
+                  <div class="description">{{product.shortDesc}}</div>
+              </div>
+          </div>
+      </div>
+      </div>

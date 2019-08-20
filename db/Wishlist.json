@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5d593869d3d0a31c78a4e94a"},"name":"Steve","prodName":"realme 5","price":{"$numberInt":"15000"},"quantity":null,"category":"Mobile","amount":null,"discount":{"$numberInt":"0"},"deliveryCharge":{"$numberInt":"200"}}
+{"_id":{"$oid":"5d5a14ce7d632415eca82a0b"},"name":"Steve","prodName":"iPhone XS","price":{"$numberInt":"99000"},"quantity":null,"category":"Mobile","amount":null,"discount":{"$numberInt":"10"},"deliveryCharge":{"$numberInt":"0"}}

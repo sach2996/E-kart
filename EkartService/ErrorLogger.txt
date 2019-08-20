@@ -1,0 +1,1465 @@
+TypeError: ProductsDetails.getAllProductDetails is not a function
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:7:21
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: db.collection(...).find(...).then is not a function
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:22:76
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: db.collection(...).findAll is not a function
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:22:42
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :iphone XR
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:23:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: Users is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:26:15
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: Users is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:26:15
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: Users is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:26:15
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: Users is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:26:15
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: Users is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:15
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: Users is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:15
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: Users is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:15
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: Users is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:15
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: Users is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:15
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: Users is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:15
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'toObject' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:21
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'toObject' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:21
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'toObject' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:29:21
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'toObject' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:29:21
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'toObject' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:29:21
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'toObject' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:29:21
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: UserDetails is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:5
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+SyntaxError: Unexpected string in JSON at position 20
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\body-parser\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\body-parser\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\body-parser\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1129:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+SyntaxError: Unexpected string in JSON at position 20
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\body-parser\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\body-parser\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\body-parser\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1129:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+TypeError: dbModule.login is not a function
+    at Object.userDetails.login (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:16:21)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:38:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.login is not a function
+    at Object.userDetails.login (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:17:21)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:38:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.login is not a function
+    at Object.userDetails.login (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:17:21)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:38:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.login is not a function
+    at Object.userDetails.login (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:17:21)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:38:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.login is not a function
+    at Object.userDetails.login (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:17:21)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:38:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.login is not a function
+    at Object.userDetails.login (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:17:21)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:38:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.login is not a function
+    at Object.userDetails.login (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\UserDetails.js:17:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:38:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.signUp is not a function
+    at Object.userDetails.signUp (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\UserDetails.js:8:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.signUp is not a function
+    at Object.userDetails.signUp (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\UserDetails.js:8:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.signUp is not a function
+    at Object.userDetails.signUp (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\UserDetails.js:8:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.signup is not a function
+    at Object.UserDetails.signup (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\UserDetails.js:8:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:28:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.login is not a function
+    at Object.UserDetails.login (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\UserDetails.js:17:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:38:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+TypeError: db.collection(...).FindOne is not a function
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:43:39
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: db.collection(...).Find is not a function
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:43:39
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: db.collection(...).Find is not a function
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:43:39
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: db.collection(...).find(...).then is not a function
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:43:92
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: res.json is not a function
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:39:13
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot set property 'userId' of undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:38:33
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: res.JSON is not a function
+    at UserDetails.checkAuth (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:26:11)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+TypeError: res.JSON is not a function
+    at UserDetails.checkAuth (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:26:11)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+TypeError: res.JSON is not a function
+    at UserDetails.checkAuth (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:26:11)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: E-105
+    at ServerResponse.writeHead (_http_server.js:209:11)
+    at ServerResponse.writeHead (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:200:8)
+    at write_ (_http_outgoing.js:585:9)
+    at ServerResponse.write (_http_outgoing.js:567:10)
+    at writetop (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express-session\index.js:291:26)
+    at ServerResponse.end (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express-session\index.js:339:16)
+    at ServerResponse.redirect (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:947:10)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:40:13
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'session' of undefined
+    at Object.UserDetails.checkAuth (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:25:14)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:50:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+TypeError: Cannot read property 'sessionId' of undefined
+    at Object.UserDetails.checkAuth (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:25:22)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:51:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:410:3)
+TypeError: Cannot read property 'sessID' of undefined
+    at Object.UserDetails.checkAuth (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:25:22)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:51:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:410:3)
+TypeError: Cannot read property 'session' of undefined
+    at Object.UserDetails.checkAuth (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:25:14)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:40:21
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'sessionId' of undefined
+    at Object.UserDetails.checkAuth (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\UserDetails.js:25:22)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:40:21
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: sessionId is not defined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:40:31
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: sessionId is not defined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:40:31
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:43:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: Users is not defined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:46:14
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:43:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:43:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:43:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:43:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: err is not defined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:45:13
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:44:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:44:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:44:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:44:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:45:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:46:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: db.collection(...).find(...).then is not a function
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:43:92
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:46:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: req is not defined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:50:13
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.location (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:884:15)
+    at ServerResponse.redirect (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:922:18)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:34:13
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.location (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:884:15)
+    at ServerResponse.redirect (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:922:18)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:34:13
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.location (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:884:15)
+    at ServerResponse.redirect (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:922:18)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:34:13
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.location (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:884:15)
+    at ServerResponse.redirect (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:922:18)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:34:13
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.location (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:884:15)
+    at ServerResponse.redirect (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\response.js:922:18)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:35:13
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Registration failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:33:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Registration failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:33:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:54:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: Users is not defined
+    at Function.Cart.toObject (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:11:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:95:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:93:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:93:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:54:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:54:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: amount is not defined
+    at Function.Cart.toObject (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:12:88)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:96:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:94:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:125:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: id is not defined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:126:23
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+ReferenceError: id is not defined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:126:23
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+ReferenceError: id is not defined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:126:23
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:142:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: deliveryCharge is not defined
+    at new Cart (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:9:25)
+    at Function.Cart.toObject (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:15:12)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:96:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+ReferenceError: deliveryCharge is not defined
+    at new Cart (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:9:25)
+    at Function.Cart.toObject (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:15:12)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:96:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+ReferenceError: deliveryCharge is not defined
+    at new Cart (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:9:25)
+    at Function.Cart.toObject (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:15:12)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:96:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+ReferenceError: deliveryCharge is not defined
+    at new Cart (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:9:25)
+    at Function.Cart.toObject (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:15:12)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:96:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+ReferenceError: deliveryCharge is not defined
+    at new Cart (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:9:25)
+    at Function.Cart.toObject (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:15:12)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:95:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+ReferenceError: deliveryCharge is not defined
+    at new Cart (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:9:25)
+    at Function.Cart.toObject (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:15:12)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:95:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+ReferenceError: deliveryCharge is not defined
+    at new Cart (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:9:25)
+    at Function.Cart.toObject (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:15:12)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:96:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+ReferenceError: cartTotal is not defined
+    at Function.Cart.toObject (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:16:141)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:96:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:143:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: cartTotal is not defined
+    at Function.Cart.toObject (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:16:141)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:96:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+ReferenceError: cartTotal is not defined
+    at Function.Cart.toObject (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\Cart.js:16:141)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:96:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:94:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+TypeError: dbModule.search is not a function
+    at Object.ProductDetails.search (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\ProductDetails.js:33:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:162:21
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:410:3)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:143:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: Wishlist is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:163:18
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: Wishlist is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:163:18
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+Error: Sorry Cannot delete: samsung
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:153:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Sorry Cannot delete: samsung
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:153:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Sorry Cannot delete: samsung
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:153:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Sorry Cannot delete: samsung
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:153:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:175:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+Error: Sorry Cannot delete: null
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:133:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Sorry Cannot delete: null
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:133:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: jwt is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:48:5
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:205:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:54:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:54:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'name' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:79:47
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'name' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:79:47
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:54:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:54:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: res is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:54:17
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:54:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:56:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:57:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:56:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:56:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:56:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: res.send is not a function
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\CartDetails.js:90:20
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:53:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:53:23
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'userId' of null
+    at Function.Users.toObject (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\Users.js:11:29)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:52:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login Failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:84:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:84:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:52:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:52:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:52:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:52:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:52:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'userId' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:66:27
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'name' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:191:25
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'userId' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:66:27
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:52:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:52:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'userId' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:66:27
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: dbModule.update is not a function
+    at Object.UserDetails.update (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\UserDetails.js:38:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:97:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.update is not a function
+    at Object.UserDetails.update (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\UserDetails.js:38:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:97:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:65:21
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: dbModule.update is not a function
+    at Object.UserDetails.update (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\UserDetails.js:38:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:99:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.update is not a function
+    at Object.UserDetails.update (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\UserDetails.js:40:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:99:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.update is not a function
+    at Object.UserDetails.update (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\UserDetails.js:28:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:99:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+TypeError: dbModule.update is not a function
+    at Object.UserDetails.update (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\UserDetails.js:27:21)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:98:17
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+Error: Updation failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:59:51
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Updation failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:59:51
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: res.json is not a function
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:99:13
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: resizeBy is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:64:17
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: res is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:64:17
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:65:21
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:65:21
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+Error: Updation failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:59:51
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: users is not defined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:58:115
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Updation failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:59:51
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\routes\Routing.js:198:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\node_modules\express\lib\router\index.js:47:12)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:49:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:49:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:49:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:49:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\assessment\ekartservice\public\javascripts\DBModule.js:49:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:199:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :nourl
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: saved is not defined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\ProductDetails.js:18:47
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: products is not defined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:25:18
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:207:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:127:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:207:19
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\node_modules\express\lib\router\index.js:47:12)
+Error: Sorry Cannot delete: realme 5
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:182:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: No Product found with name :undefined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:24:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+ReferenceError: res is not defined
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:37:17
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: This email already exists.Please use other email
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:46:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: This email already exists.Please use other email
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:46:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: This email already exists.Please use other email
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:46:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: This email already exists.Please use other email
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\routes\Routing.js:46:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: login failed
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:51:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed. Try again
+    at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:51:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)

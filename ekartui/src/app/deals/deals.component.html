@@ -1,0 +1,27 @@
+
+  <div class="row card-group">
+        <div class="col-4" *ngFor="let product of result">
+            <div class="product-grid">
+                <div >
+                    <a [routerLink]='["/productinfo"]' (click)="prodinfo(product.displayName)">
+                        <img class="pic-1" src="../../assets/{{product.displayName}}.jpg" alt="Smiley face" height="200" width="200">
+                        
+                    </a>
+                    <ul class="social">
+                    <li *ngIf="loggedIn"><button type="submit" (click)="addWishlist(product)" class="btn btn-primary">Wishlist</button></li>
+                    <li><button type="submit" (click)="addToCart(product)" class="btn btn-primary">Cart</button></li>
+                  </ul>
+                  <div *ngIf="product.discount">
+                    <span class="product-new-label">Discount</span>
+                    <span class="product-discount-label">{{product.discount}}%</span></div>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a [routerLink]='["/productinfo"]' (click)="prodinfo(product.displayName)">{{product.displayName}}</a></h3>
+                    <div class="price">Rs.{{product.amount}}
+                        <span>Rs.{{product.price}}</span>
+                    </div>
+                    <div class="description">{{product.shortDesc}}</div>
+                </div>
+            </div>
+        </div>

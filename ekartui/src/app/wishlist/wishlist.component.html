@@ -1,0 +1,60 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th></th>
+                        <th class="text-center">Price</th>
+                        <th class="text-center">Discount</th>
+                        <th class="text-center">Shipping</th>
+                        <th class="text-center"></th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let product of result">
+                        <td class="col-sm-8 col-md-6">
+                        <div class="media">
+                            <a class="thumbnail pull-left" (click)="prodinfo(product.prodName)"> <img class="pic-1" src="../../../assets/{{product.prodName}}.jpg" alt="Smiley face" height="72px" width="72px"> </a>
+                            <div class="media-body">
+                                <h4 class="title text-truncate"><a (click)="prodinfo(product.prodName)">{{product.prodName}}</a></h4>
+                                <dl class="param param-inline small">
+                                    <dt>Category: </dt>
+                                    <dd>{{product.category}}</dd>
+                                  </dl>
+                            </div>
+                        </div></td>
+                        <td class="col-sm-1 col-md-1" >                     </td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>Rs.{{product.price}}</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center">{{product.discount}}%</td>
+                        <td class="col-sm-1 col-md-1 text-center">Rs.{{product.deliveryCharge}}</td>
+                        
+                        <td class="col-sm-1 col-md-1 text-center">
+                            <button type="submit" class="myBtn btn-success"(click)="moveToCart(product)" >Add to Cart
+                            </button></td>
+                        <td class="col-sm-1 col-md-1 text-center">
+                        <button type="button" class="myBtn btn-danger" (click)="delete(product.prodName)">
+                            <span class="glyphicon glyphicon-remove"></span> Remove
+                        </button></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td><td>   </td>
+                        <td>
+                        <button type="button" class="btn btn-primary" (click)="continueShop()">Home
+                        </button></td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+

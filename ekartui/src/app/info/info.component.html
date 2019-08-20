@@ -1,0 +1,49 @@
+<div class="row justify-content-md-center">
+        <div class="col-md-5 col-md-offset-4">
+            <div class="panel panel-primary" >
+                <div class="panel-heading justify-content-md-center">Update Your Details</div>
+                <div class="panel-body" *ngFor="let user of users">
+    
+                    <form class="jumbotron vertical-center" [formGroup]="updateForm" (ngSubmit)="update()">
+                        
+                        <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" formControlName="name" [value]="user.name" class="form-control" [ngClass]="{
+                                    'is-invalid': submitted && updateForm.controls.name.errors}">
+                                <div *ngIf="submitted && updateForm.controls.name.errors" class="text text-danger">
+                                    Enter a valid name.
+                                </div>
+                        </div>
+    
+                        <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" formControlName="password" [value]="user.password" class="form-control" [ngClass]="{
+                                    'is-invalid': submitted && updateForm.controls.password.errors}">
+                                <div *ngIf="submitted && updateForm.controls.password.errors" class="text text-danger">
+                                    Your password should have contain at least an uppercase, a lowercase,a number and a special character and minimum length 6.
+                                </div>
+                        </div>
+    
+                        <div class="form-group">
+                                <label>Confirm Password</label>
+                                <input type="password" formControlName="confirmPassword" [value]="user.password"  class="form-control" [ngClass]="{
+                                    'is-invalid': submitted && updateForm.controls.confirmPassword.errors}">
+                                <div *ngIf="submitted && updateForm.controls.confirmPassword.errors" class="text text-danger">
+                                    Password do not match.
+                                </div>
+                        </div>
+    
+                        <br>
+                        <button type="submit"  class="btn btn-success" >Update</button>
+                    </form>
+                    <br>
+            <div *ngIf="errorMessage!=null" >
+              <span class="text-danger">{{errorMessage}}</span>
+            </div>
+            <div *ngIf="successMessage!=null">
+              <span class="text-success">{{successMessage}}</span>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>

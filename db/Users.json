@@ -1,0 +1,15 @@
+{"_id":{"$oid":"5d5642cc3822881c3e779a5e"},"userId":"E-101","name":"mike","email":"mike@test.com","password":"mike1234","phone":{"$numberInt":"987654323"},"userID":null}
+{"_id":{"$oid":"5d5642cc3822881c3e779a5f"},"userId":"E-102","name":"Steve","phone":{"$numberLong":"7894561230"},"email":"steve@test.com","password":"Sachin@12"}
+{"_id":{"$oid":"5d5642cc3822881c3e779a60"},"userId":"E-103","name":"Dustin","phone":{"$numberLong":"9876543212"},"email":"dustin@test.com","password":"dustin123"}
+{"_id":{"$oid":"5d56e62400114825dc232cfa"},"userId":"E-105","name":"Lucas","email":"lucas@test.com","password":"lucas123","phone":{"$numberLong":"9874563201"}}
+{"_id":{"$oid":"5d5ad9e8a003a4275c2aff2e"},"userId":"sachin","name":[null,null],"email":"sachin@test.com","password":"Sachin@12","phone":{"$numberInt":"1234567890"}}
+{"_id":{"$oid":"5d5ae438a655ad257c52ac94"},"userId":"kdd","name":"Kuldeepak","email":"kuldeepak@test.com","password":"Sachin@12","phone":{"$numberLong":"9876543210"}}
+{"_id":{"$oid":"5d5bced3ca13a720dc0d3ca4"},"userId":"karthik","name":"Karthik","email":"karthik@test.com","password":"Sachin@12","phone":{"$numberLong":"9874563210"}}
+{"_id":{"$oid":"5d5be20d3b633e21844064b6"},"userId":"lucas","name":"Lucas","email":"lucas@test.com","password":"Sachin@12","phone":null}
+{"_id":{"$oid":"5d5be25a69501034b807e8f3"},"userId":"hopper","name":"hopper","email":"hopper@test.com","password":"Sachin@12","phone":null}
+{"_id":{"$oid":"5d5be31e08919e32e865acf6"},"userId":"hopper","name":"hopper","email":"hopper@test.com","password":"Sachin@12","phone":null}
+{"_id":{"$oid":"5d5be36a08919e32e865acf7"},"userId":"kulli","name":"kulli","email":"kulli@test.com","password":"Sachin@12","phone":null}
+{"_id":{"$oid":"5d5be3bb08919e32e865acf8"},"userId":"digpal","name":"digpal","email":"digpal@test.com","password":"Sachin@12","phone":null}
+{"_id":{"$oid":"5d5be5cb08919e32e865acf9"},"userId":"E-102","name":"Steve","email":"steve@test.com","password":"steve123","phone":{"$numberLong":"7894561230"}}
+{"_id":{"$oid":"5d5be5d508919e32e865acfa"},"userId":"E-102","name":"Steve","email":"steve@test.com","password":"steve123","phone":{"$numberLong":"7894561230"}}
+{"_id":{"$oid":"5d5be66dae7ac0202c0ac63e"},"userId":"E-102","name":"Steve","email":"steve@test.com","password":"steve123","phone":{"$numberLong":"7894561230"}}

@@ -1,0 +1,61 @@
+
+  <div class="row card-group ">
+    <div class="col-12" *ngFor="let product of listResult1">
+        <div class="product-grid">
+            <div >
+                <a href="#">
+                    <img class="pic-1" src="../../assets/{{product.displayName}}.jpg" alt="Smiley face" height="500" width="500">
+                    
+                </a>
+                
+               
+              <div>
+                    <button *ngIf="productInfoLoggedIn" type="submit" (click)="addWishlist(product)" class="btn btn-primary">Wishlist</button> &nbsp;&nbsp;
+                    <button type="submit" (click)="addToCart(product)" class="btn btn-primary">Cart</button>
+              </div>
+              <div *ngIf="product.discount">
+                  <table>
+                      <td><span class="product-new-label">Discount</span></td>
+                      <td><span class="product-discount-label">{{product.discount}}%</span></td>
+
+                    </table>
+                  
+                </div>
+            </div>
+            
+            <div >
+                <h1>{{product.displayName}}</h1>
+                
+            </div>
+            <div>   
+                  
+                <ul style="list-style-type: none">
+                        <li class="product-content">
+                                <p class="price"><b> Price: </b> Rs.{{product.amount}}
+                                    <span>Rs.{{product.price}}</span>
+                                </p>
+                        </li>
+                        <li>
+                               <b> Product Info: </b>{{product.shortDesc}}
+                        </li>
+                        <li>
+                                <b> Product Description: </b>{{product.description}}
+                        </li>
+                        <li>
+                                <b> Shipping charges: </b>{{product.deliveryCharge}}
+                        </li>
+                        <li>
+                                <b> Average Rating: </b>{{product.rating}} out of 5
+                        </li>
+                        <li  >
+                            <b> Reviews: </b>
+                            <div *ngFor="let option of listResult2" >{{option}}</div> 
+                    </li>
+                </ul>
+            </div>
+                <br>
+               
+            </div>
+        </div>
+    </div>
+    
