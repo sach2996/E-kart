@@ -51,7 +51,7 @@ export class LoginComponent implements OnInit {
       if(this.successMessage!=null){
         this.loggedIn=true;
         this.loginService.productInfoLoggedIn.next(true);
-        console.log("LoggedIn:",this.loggedIn);
+        //console.log("LoggedIn:",this.loggedIn);
         this.loginService.isUserLoggedIn.next(true);
         localStorage.setItem('loginStatus','true');
       }
@@ -59,9 +59,9 @@ export class LoginComponent implements OnInit {
       
       },
       error=>{
-        console.log("Error");
+       // console.log("Error");
         this.errorMessage=error.replace(/\"/g,"");
-        console.log(this.errorMessage);
+       // console.log(this.errorMessage);
       }
       )
       this.successMessage='';

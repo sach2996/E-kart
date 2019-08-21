@@ -74,7 +74,7 @@ dbModule.update=function(userId,name,password){
     console.log("In dbModule ::",userId,name,password);
     return connection.getConnection().then(function(db){
         return db.collection("Users").updateOne({ "userId":userId},{$set:{"name":name,"password":password}}).then(function(saved){
-            if (saved.result.nModified < 1) throw new Error("Updation failed");
+            if (saved.result.nModified < 1) throw new Error("You have entered same details");
             
             else {
                 console.log("Returning to Userdetails after updation",saved.result.nModified);

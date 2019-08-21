@@ -30,7 +30,7 @@ export class AppComponent implements OnInit{
     localStorage.removeItem('loginStatus');
     this.isUserLoggedIn=false;
     this.loginService.productInfoLoggedIn.next(false);
-    console.log("logged out successfully");
+   // console.log("logged out successfully");
     window.location.href;
     
   }

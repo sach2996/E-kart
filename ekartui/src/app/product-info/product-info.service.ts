@@ -18,11 +18,11 @@ export class ProductInfoService {
   public productInfo: BehaviorSubject<string>=new BehaviorSubject<string>("nourl");
 
   viewId(id) : Observable<any>{
-    console.log("View Service :",id);
+    //console.log("View Service :",id);
     return this.http.get("http://localhost:1020/viewProduct/"+id);
   }
   addCart(cart:Cart): Observable<any>{
-    console.log("Cart info",cart)
+   // console.log("Cart info",cart)
     const header= new HttpHeaders({'Content-Type': 'application/json; charset=utf-8'});
     return this.http.post("http://localhost:1020/addCart",cart,{headers : header}).pipe
     (catchError(this.errorHandler));

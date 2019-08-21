@@ -32,13 +32,13 @@ export class CartComponent implements OnInit {
       .subscribe
       (
         data=>{
-          console.log("In decrement :",product);
+         // console.log("In decrement :",product);
           this.cart=data;
           this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
           this.view();
         },
         error=>{
-          console.log("Error");
+         // console.log("Error");
           this.errorMessage=error.replace(/\"/g,"");
         }
         )
@@ -46,7 +46,7 @@ export class CartComponent implements OnInit {
         this.errorMessage='';
     }
     increment(product){
-      console.log("In increment :",product);
+     // console.log("In increment :",product);
       this.cartService.addCart(product)
       .subscribe
       (
@@ -57,7 +57,7 @@ export class CartComponent implements OnInit {
           this.view();
         },
         error=>{
-          console.log("Error");
+         // console.log("Error");
           this.errorMessage=error.replace(/\"/g,"");
           
         }
@@ -77,7 +77,7 @@ export class CartComponent implements OnInit {
           this.view();
         },
         error=>{
-          console.log("Error");
+        //  console.log("Error");
           this.errorMessage=error.replace(/\"/g,"");
         }
         )
@@ -91,7 +91,7 @@ export class CartComponent implements OnInit {
       data=>{
         this.result=data;
         for(var i=0;i<(this.result).length;i++){
-          console.log("result",data);
+        //  console.log("result",data);
           this.total=this.total+this.result[i].amount;
        }
       }

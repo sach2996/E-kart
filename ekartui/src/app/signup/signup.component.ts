@@ -52,10 +52,10 @@ export class SignupComponent implements OnInit {
       data=>{
       this.users=data;
       this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
-      console.log(this.successMessage);
+     // console.log(this.successMessage);
       },
       error=>{
-        console.log("Error");
+       // console.log("Error");
         this.errorMessage=error.replace(/\"/g,"");
       }
       )

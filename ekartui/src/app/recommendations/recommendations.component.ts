@@ -45,7 +45,7 @@ export class RecommendationsComponent implements OnInit {
         objCart.price=product.price;
         objCart.discount=product.discount;
         objCart.deliveryCharge=product.deliveryCharge;
-        console.log("Delivery Charge:",product.deliveryCharge);
+        //console.log("Delivery Charge:",product.deliveryCharge);
         if(product.amount ==null){
           objCart.amount=0;
         }
@@ -56,7 +56,7 @@ export class RecommendationsComponent implements OnInit {
             this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
           },
           error=>{
-            console.log("Error");
+            //console.log("Error");
             this.errorMessage=error.replace(/\"/g,"");
           }
           )
@@ -65,7 +65,7 @@ export class RecommendationsComponent implements OnInit {
     
     }
     addWishlist(product){
-      console.log("Resulted data" ,product);
+      //console.log("Resulted data" ,product);
     
       var objWishlist=new Wishlist();
       objWishlist.prodName=product.displayName;
@@ -82,7 +82,7 @@ export class RecommendationsComponent implements OnInit {
           this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
         },
         error=>{
-          console.log("Error");
+          //console.log("Error");
           this.errorMessage=error.replace(/\"/g,"");
         }
         )

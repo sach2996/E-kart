@@ -31,7 +31,7 @@ export class WishlistComponent implements OnInit {
     }
   }; 
   moveToCart(product){
-    console.log("Resulted data" ,product);
+    //console.log("Resulted data" ,product);
 
     var objCart=new Cart();
     objCart.prodName=product.prodName;
@@ -39,7 +39,7 @@ export class WishlistComponent implements OnInit {
     objCart.price=product.price;
     objCart.discount=product.discount;
     objCart.deliveryCharge=product.deliveryCharge;
-    console.log("prodName ",objCart.prodName)
+    //console.log("prodName ",objCart.prodName)
     this.wishlistService.addCart(objCart)
     .subscribe
     (
@@ -48,7 +48,7 @@ export class WishlistComponent implements OnInit {
         this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
       },
       error=>{
-        console.log("Error");
+        //console.log("Error");
         this.errorMessage=error.replace(/\"/g,"");
       }
       )
@@ -77,7 +77,7 @@ export class WishlistComponent implements OnInit {
     this.errorMessage='';
   }
   prodinfo(id){
-    console.log("in prod info ",id)
+    //console.log("in prod info ",id)
     this.productinfoService.productInfo.next(id);
     this.router.navigate(['/productinfo']);
   

@@ -34,7 +34,7 @@ export class InfoComponent implements OnInit {
     .subscribe
     (
       data=>{
-        console.log("returned data", data);
+       // console.log("returned data", data);
         this.name=data;
         
         
@@ -50,7 +50,7 @@ export class InfoComponent implements OnInit {
   
   update(){
     this.submitted=true;
-    console.log("In update1");
+    //console.log("In update1");
     
     if(this.updateForm.invalid){
       return;
@@ -71,12 +71,12 @@ export class InfoComponent implements OnInit {
     (
       data=>{
       this.users=data;
-      console.log(this.users);
+     // console.log(this.users);
       this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
-      console.log(this.successMessage);
+      //console.log(this.successMessage);
       },
       error=>{
-        console.log("Error");
+       // console.log("Error");
         this.errorMessage=error.replace(/\"/g,"");
       }
       )

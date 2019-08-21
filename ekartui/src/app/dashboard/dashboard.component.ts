@@ -33,7 +33,7 @@ export class DashboardComponent implements OnInit {
     .subscribe
     (
       data=>{ 
-        console.log("Data",data);
+       // console.log("Data",data);
         this.result=data;
         for(var i=0;i<this.result.length;i++){
           this.result[i].amount=this.result[i].price-((this.result[i].price*this.result[i].discount)/100);
@@ -42,7 +42,7 @@ export class DashboardComponent implements OnInit {
        
       }
     )
-      console.log("In this.dashboardService", this.result)
+     // console.log("In this.dashboardService", this.result)
     return this.result;
   };
   search(){
@@ -62,7 +62,7 @@ export class DashboardComponent implements OnInit {
  }
   
   addToCart(product){
-    console.log("Resulted data" ,product.amount);
+   // console.log("Resulted data" ,product.amount);
 
     var objCart=new Cart();
     objCart.prodName=product.displayName;
@@ -74,7 +74,7 @@ export class DashboardComponent implements OnInit {
     if(product.amount ==null){
       objCart.amount=0;
     }
-    console.log("Amount ",product.amount);
+   // console.log("Amount ",product.amount);
     
     this.dashboardService.addCart(objCart)
     .subscribe
@@ -84,7 +84,7 @@ export class DashboardComponent implements OnInit {
         this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
       },
       error=>{
-        console.log("Error");
+      //  console.log("Error");
         this.errorMessage=error.replace(/\"/g,"");
       }
       )
@@ -93,7 +93,7 @@ export class DashboardComponent implements OnInit {
 
   }
   addWishlist(product){
-    console.log("Resulted data" ,product);
+    //console.log("Resulted data" ,product);
 
     var objWishlist=new Wishlist();
     objWishlist.prodName=product.displayName;
@@ -110,7 +110,7 @@ export class DashboardComponent implements OnInit {
         this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
       },
       error=>{
-        console.log("Error");
+       // console.log("Error");
         this.errorMessage=error.replace(/\"/g,"");
       }
       )
@@ -126,18 +126,18 @@ export class DashboardComponent implements OnInit {
   }
   viewId(id){
 
-    console.log("Id is:",id);
+   // console.log("Id is:",id);
     this.productinfoService.viewId(id)
     .subscribe
     (
       data=>{
-        console.log("Data Returned");
+     //   console.log("Data Returned");
        this.listResult1=data;
         //this.successMessage=(JSON.stringify(data.bean)).replace(/\"/g,"")  ;
         //console.log(this.successMessage);
       },
       error=>{
-        console.log(error)
+     //   console.log(error)
         this.errorMessage=(JSON.stringify(error.message)).replace(/\"/g,"");
       }
     );

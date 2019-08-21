@@ -28,7 +28,7 @@ export class ProductInfoComponent implements OnInit {
     })
     this.loginService.productInfoLoggedIn.subscribe(value=>{
       this.productInfoLoggedIn=value;
-      console.log("Value of productInfoLoggedIn",this.productInfoLoggedIn);
+      //console.log("Value of productInfoLoggedIn",this.productInfoLoggedIn);
     })
    }
 
@@ -46,7 +46,7 @@ export class ProductInfoComponent implements OnInit {
 }
   
 addToCart(product){
-  console.log("Resulted data" ,product.amount);
+  //console.log("Resulted data" ,product.amount);
 
   var objCart=new Cart();
   objCart.prodName=product.displayName;
@@ -58,7 +58,7 @@ addToCart(product){
   if(product.amount ==null){
     objCart.amount=0;
   }
-  console.log("Amount ",product.amount);
+  //console.log("Amount ",product.amount);
   
   this.dashboardService.addCart(objCart)
   .subscribe
@@ -68,7 +68,7 @@ addToCart(product){
       this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
     },
     error=>{
-      console.log("Error");
+      //console.log("Error");
       this.errorMessage=error.replace(/\"/g,"");
     }
     )
@@ -78,7 +78,7 @@ addToCart(product){
 }
   viewId(id){
 
-    console.log("Id is:",id);
+    //console.log("Id is:",id);
     this.productinfoService.viewId(id)
     .subscribe
     (
@@ -86,23 +86,23 @@ addToCart(product){
         
         this.listResult1=[data];
         this.listResult2=data.reviews;
-        console.log(" Reviews",this.listResult2);
+        //console.log(" Reviews",this.listResult2);
         
         for(var i=0;i<this.listResult1.length;i++){
           this.listResult1[i].amount=this.listResult1[i].price-((this.listResult1[i].price*this.listResult1[i].discount)/100);
         }
-      console.log(this.listResult1);
+     // console.log(this.listResult1);
       
        },
       error=>{
-        console.log(error)
+       // console.log(error)
         this.errorMessage=(JSON.stringify(error.message)).replace(/\"/g,"");
       }
     );
     return this.listResult1,this.listResult2;
   }
   addWishlist(product){
-    console.log("Resulted data" ,product);
+   // console.log("Resulted data" ,product);
 
     var objWishlist=new Wishlist();
     objWishlist.prodName=product.displayName;
@@ -119,7 +119,7 @@ addToCart(product){
         this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
       },
       error=>{
-        console.log("Error");
+       // console.log("Error");
         this.errorMessage=error.replace(/\"/g,"");
       }
       )
