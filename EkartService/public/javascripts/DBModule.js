@@ -70,7 +70,7 @@ dbModule.checkmail=function(email){
 dbModule.update=function(email,name,password){
     return connection.getConnection().then(function(db){
         return db.collection("Users").updateOne({ "email":email},{$set:{"name":name,"password":password}}).then(function(saved){
-            if (saved.result.nModified < 1) throw new Error("You have entered same details");
+            if (saved.result.nModified < 1) throw new Error("Please pass new name or password to update.");
             
             else {
                 console.log("Returning to Userdetails after updation",saved.result.nModified);

@@ -25,9 +25,9 @@ export class InfoComponent implements OnInit {
   ngOnInit() {
     this.updateForm=this.fb.group({
      
-      name:['',[Validators.required,validateName]],
-      password:['',[Validators.required,validatePassword]],
-      confirmPassword:['',[validatePassword]]
+      name:['empty',[Validators.required,validateName]],
+      password:['Password@12',[Validators.required,validatePassword]],
+      confirmPassword:['Password@12',[validatePassword]]
      
     });
     this.loggedIn=localStorage.getItem('loginStatus');
@@ -37,9 +37,7 @@ export class InfoComponent implements OnInit {
     (
       data=>{
         this.name=data;
-        
-        
-      }
+       }
     )
     return this.name;
     }
@@ -60,14 +58,23 @@ export class InfoComponent implements OnInit {
   update(){
     this.submitted=true;
     if(this.updateForm.invalid){
-      console.log(this.updateForm.get('name').value);
+      console.log("value ",this.updateForm.get('password').value);
       
       this.errorMsg="All the fields are mandatory";  
       return this.errorMsg;
     }
     var objUsers=new Users();
-    objUsers.name=this.updateForm.get('name').value;
+    if(this.updateForm.get('name').value=="empty"){
+        objUsers.name=this.name;
+    }else{
+          objUsers.name=this.updateForm.get('name').value;
+          }
+    if(this.updateForm.get('password').value=="Password@12"){
+      objUsers.password=null;
+    }
+    else{
     objUsers.password=this.updateForm.get('password').value;
+    }
     console.log("Object of users:",objUsers);
      
     this.infoService.updateData(objUsers)
@@ -81,8 +88,10 @@ export class InfoComponent implements OnInit {
         this.errorMessage=error.replace(/\"/g,"");
       }
       )
+      this.successMessage="";
+      this.errorMessage="";
       }
-
+      
 }
 
 function validateName(c: FormControl) {
