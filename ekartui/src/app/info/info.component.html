@@ -5,44 +5,49 @@
                 <div class="panel-body" >
     
                     <form class="jumbotron vertical-center" [formGroup]="updateForm" (ngSubmit)="update()">
-                        
-                        <div class="form-group">
+                       <div class="form-group">
                                 <label>Name</label>
-                                <input type="text" formControlName="name"  class="form-control" [ngClass]="{
+                                <input type="text" formControlName="name"   class="form-control" [ngClass]="{
                                     'is-invalid': submitted && updateForm.controls.name.errors}">
                                 <div *ngIf="submitted && updateForm.controls.name.errors" class="text text-danger">
-                                    Enter a valid name.
+                                        Name contains invalid character.
                                 </div>
                         </div>
-    
-                        <div class="form-group">
+                        
+                        <!--<input type="checkbox" (click)="changePassword()">Mark this to change password-->
+                        
+                        <div class="form-group" *ngIf="changePswrd">
                                 <label>Password</label>
                                 <input type="password" formControlName="password"   class="form-control" [ngClass]="{
                                     'is-invalid': submitted && updateForm.controls.password.errors}">
                                 <div *ngIf="submitted && updateForm.controls.password.errors" class="text text-danger">
-                                    Your password should have contain at least an uppercase, a lowercase,a number and a special character and minimum length 6.
+                                    Your password should contain at least an uppercase, a lowercase character,a number and a special character.
                                 </div>
                         </div>
     
-                        <div class="form-group">
+                        <div class="form-group" *ngIf="changePswrd">
                                 <label>Confirm Password</label>
-                                <input type="password" formControlName="confirmPassword"  class="form-control" [ngClass]="{
-                                    'is-invalid': submitted && updateForm.controls.confirmPassword.errors}">
-                                <div *ngIf="submitted && updateForm.controls.confirmPassword.errors" class="text text-danger">
-                                    Password do not match.
+                                <input type="password" formControlName="confirmPassword"  class="form-control">
+                                <div *ngIf="updateForm.value.password!==updateForm.value.confirmPassword" class="text text-danger">
+                                    Password and Confirm Password are not matching.
                                 </div>
                         </div>
-    
+                        
                         <br>
                         <button type="submit"  class="btn btn-success" >Update</button>
+                        <div *ngIf="errorMessage!=null" >
+                            <span class="text-danger">{{errorMessage}}</span>
+                          </div>
+                          <div *ngIf="successMessage!=null">
+                            <span class="text-success">{{successMessage}}</span>
+                          </div>
+                          <div *ngIf="errorMsg!=null" >
+                            <span class="text-danger">{{errorMsg}}</span>
+                          </div>
+                          
                     </form>
                     <br>
-            <div *ngIf="errorMessage!=null" >
-              <span class="text-danger">{{errorMessage}}</span>
-            </div>
-            <div *ngIf="successMessage!=null">
-              <span class="text-success">{{successMessage}}</span>
-            </div>
+            
             </div>
             </div>
         </div>

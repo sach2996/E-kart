@@ -17,45 +17,40 @@ export class SignupComponent implements OnInit {
   successMessage: String;
   signupForm: FormGroup;
   users:Users;
+  errorMsg: any;
   
 
   constructor(private fb: FormBuilder, private signupService:SignupService) { }
 
   ngOnInit() {
     this.signupForm=this.fb.group({
-      userid:['',Validators.required],
       name:['',[Validators.required,validateName]],
       email:['',[Validators.required,validateEmail]],
       password:['',[Validators.required,validatePassword]],
       confirmPassword:['',[Validators.required]]
-      //phone:['',[Validators.required,validatePhone]]
-    })
+      })
   }
 
   signup(){
     this.submitted=true;
 
     if(this.signupForm.invalid){
-      return;
+      this.errorMsg="All the fields are mandatory"; 
+      return this.errorMsg;
     }
     var objUsers=new Users();
-    objUsers.userId=this.signupForm.get('userid').value;
     objUsers.name=this.signupForm.get('name').value;
     objUsers.email=this.signupForm.get('email').value;
     objUsers.password=this.signupForm.get('password').value;
     
-   // objUsers.phone=parseInt(this.signupForm.get('phone').value);
-
     this.signupService.getData(objUsers)
     .subscribe
     (
       data=>{
       this.users=data;
       this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
-     // console.log(this.successMessage);
       },
       error=>{
-       // console.log("Error");
         this.errorMessage=error.replace(/\"/g,"");
       }
       )

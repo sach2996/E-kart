@@ -70,11 +70,10 @@ routing.post('/login',function(req,res,next){
 })
 
 routing.get('/userInfo',function(req,res,next){
-    var userId=sess.users.userId;
-    console.log("USER ID:",userId);
-    dbModule.getUser(userId).then(function(data){
+    var email=sess.users.email;
+    dbModule.getUser(email).then(function(data){
         if(data){
-            console.log("User name: ",data)
+           
             res.json(data)
         }
         else{
@@ -85,7 +84,6 @@ routing.get('/userInfo',function(req,res,next){
 })})
 
 routing.get('/dashboard',function(req,res){
-   // sess=req.session;
     if(!sess.users){
         res.json({"message":"User not authorized"})
     }else{
@@ -96,23 +94,32 @@ routing.get('/dashboard',function(req,res){
 
 
 routing.get('/logout',function(req,res){
-    console.log(req.sessionID);
     delete req.session.sessionId;
     res.redirect('/login');
 })
 
 routing.post('/update',function(req,res,next){
-    var userId=sess.users.userId;
+    var email=sess.users.email;
     var users=Users.toObject(req.body);
-    console.log("In update ",userId,users.name,users.password);
-    dbModule.update(userId,users.name,users.password).then(function(data){
-        console.log("Updated data");
-        
+    if(users.password!=null){
+    dbModule.update(email,users.name,users.password).then(function(data){
         res.json({"message":"Successfully Updated"})
-    }).catch(function(err){
+    }
+    ).catch(function(err){
         console.log(err);
         next(err)
     })
+}
+    else{
+        var password=sess.users.password;
+        dbModule.update(email,users.name,password).then(function(data){
+            res.json({"message":"Successfully Updated"})
+        }
+        ).catch(function(err){
+            console.log(err);
+            next(err)
+        })
+    }
 })
 
 routing.get('/deals', function(req,res,next){
@@ -133,9 +140,7 @@ routing.get('/recommendations', function(req,res,next){
 
 routing.post('/addCart',function(req,res){
     var name=sess.users.name;
-    console.log("Add cart ",req.body);
     var cart=Cart.toObject(req.body,name);
-   // console.log("In routing",cart);
     CartDetails.addCart(cart).then(function(err){
         if(err){
             res.json({"message":"Qauntity cannot exceed 4 per user"});

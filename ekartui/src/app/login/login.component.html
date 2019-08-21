@@ -8,9 +8,9 @@
                     
                     <div class="form-group">
                         <label>Username</label>
-                        <input type="text" formControlName="userid" class="form-control" [ngClass]="{
-                            'is-invalid': submitted && loginForm.controls.userid.errors}"><br>
-                        <div *ngIf="submitted && loginForm.controls.userid.errors" class="text text-danger">
+                        <input type="text" formControlName="email" class="form-control" [ngClass]="{
+                            'is-invalid': submitted && loginForm.controls.email.errors}"><br>
+                        <div *ngIf="submitted && loginForm.controls.email.errors" class="text text-danger">
                             Enter valid username
                         </div>
                     </div>

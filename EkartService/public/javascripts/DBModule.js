@@ -46,8 +46,7 @@ dbModule.signup=function(users){
 dbModule.login=function(users){
     console.log(users);
     return connection.getConnection().then(function(db){
-        return db.collection("Users").findOne({"userId":users.userId, "password":users.password}).then(function(saved){
-            console.log("details :",saved);
+        return db.collection("Users").findOne({"email":users.email, "password":users.password}).then(function(saved){
             if(!saved) throw new Error("Login failed. Try again");
             else return saved;
 
@@ -55,10 +54,8 @@ dbModule.login=function(users){
 })}
 
 dbModule.checkmail=function(email){
-    //console.log(users);
     return connection.getConnection().then(function(db){
         return db.collection("Users").findOne({"email":email}).then(function(saved){
-           // console.log("details :",saved);
             if(!saved) 
             {
                 return "not found"
@@ -70,10 +67,9 @@ dbModule.checkmail=function(email){
 
     })
 })}
-dbModule.update=function(userId,name,password){
-    console.log("In dbModule ::",userId,name,password);
+dbModule.update=function(email,name,password){
     return connection.getConnection().then(function(db){
-        return db.collection("Users").updateOne({ "userId":userId},{$set:{"name":name,"password":password}}).then(function(saved){
+        return db.collection("Users").updateOne({ "email":email},{$set:{"name":name,"password":password}}).then(function(saved){
             if (saved.result.nModified < 1) throw new Error("You have entered same details");
             
             else {
@@ -86,15 +82,10 @@ dbModule.update=function(userId,name,password){
 }
 
 
-dbModule.getUser=function(userId){
-    console.log("dbMODULE ",userId);
-    
+dbModule.getUser=function(email){
     return connection.getConnection().then(function (db) {
-        return db.collection("Users").find({"userId":userId}).project({_id:0,name:1}).toArray().then(function(user){
-            console.log("Users info--",user[0].name);
-            //var result=Users.toObject(user);
-            //console.log("result ",result.name);
-            return user[0].name;
+        return db.collection("Users").find({"email":email}).project({_id:0,name:1}).toArray().then(function(user){
+           return user[0].name;
         }).catch(function(err){
             return err;
         })

@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
     this.loginForm=this.fb.group({
-      userid:['',Validators.required],
+      email:['',Validators.required],
       password:['',Validators.required],
      
     })
@@ -38,7 +38,7 @@ export class LoginComponent implements OnInit {
     }
 
     var objUsers=new Users();
-    objUsers.userId=this.loginForm.get('userid').value;
+    objUsers.email=this.loginForm.get('email').value;
     objUsers.password=this.loginForm.get('password').value;
     
     this.loginService.getData(objUsers)
@@ -51,7 +51,6 @@ export class LoginComponent implements OnInit {
       if(this.successMessage!=null){
         this.loggedIn=true;
         this.loginService.productInfoLoggedIn.next(true);
-        //console.log("LoggedIn:",this.loggedIn);
         this.loginService.isUserLoggedIn.next(true);
         localStorage.setItem('loginStatus','true');
       }
@@ -59,9 +58,7 @@ export class LoginComponent implements OnInit {
       
       },
       error=>{
-       // console.log("Error");
         this.errorMessage=error.replace(/\"/g,"");
-       // console.log(this.errorMessage);
       }
       )
       this.successMessage='';
