@@ -24,7 +24,7 @@ export class DashboardComponent implements OnInit {
   hideDeals:boolean=false;
 
   constructor(private router:Router,private dashboardService: DashboardService, private productinfoService: ProductInfoService) { }
-  result: Products[];
+  result: Products[]=[];
   
   
   ngOnInit(){
