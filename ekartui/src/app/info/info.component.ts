@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { InfoService } from "./info.service";
 import { Users } from "../shared/Users";
 import { FormControl, Validators, FormGroup, FormBuilder } from '@angular/forms';
+import { StringifyOptions } from 'querystring';
+import { Router } from '@angular/router'
 @Component({
   selector: 'app-info',
   templateUrl: './info.component.html',
@@ -9,7 +11,7 @@ import { FormControl, Validators, FormGroup, FormBuilder } from '@angular/forms'
 })
 export class InfoComponent implements OnInit {
 
-  constructor(private fb: FormBuilder,private infoService:InfoService) { }
+  constructor(private fb: FormBuilder,private infoService:InfoService, private router:Router) { }
   submitted:boolean=false;
   errorMessage:String;
   successMessage: String;
@@ -17,7 +19,7 @@ export class InfoComponent implements OnInit {
   updateForm: FormGroup;
   userID:string;
   name:string="hu";
-
+  loggedIn:string;
   ngOnInit() {
     this.updateForm=this.fb.group({
      
@@ -26,8 +28,9 @@ export class InfoComponent implements OnInit {
       confirmPassword:['',[Validators.required,validatePassword]]
      
     });
-
-    this.infoService.getUser()
+    this.loggedIn=localStorage.getItem('loginStatus');
+    if(this.loggedIn){
+      this.infoService.getUser()
     .subscribe
     (
       data=>{
@@ -38,6 +41,11 @@ export class InfoComponent implements OnInit {
       }
     )
     return this.name;
+    }
+    else{
+    this.router.navigate(['/login']);
+    }
+    
   }
   
   update(){
