@@ -22,9 +22,11 @@
                         </div>
                         <p ><b>Description :</b>{{product.shortDesc}}.{{product.description}}</p>
 						
-                        <h6> Price: Rs.{{product.amount}}
-                        </h6>
-                        <br><br>
+                        <h6 *ngIf="product.amount==product.price">Price : Rs.{{product.amount}}</h6>
+                        <h6 *ngIf="product.amount!=product.price">Effective Price : Rs.{{product.amount}}</h6>
+                        <h6 *ngIf="product.amount!=product.price">Original Price  : Rs.{{product.price}}</h6>
+                        <h6 *ngIf="product.amount!=product.price">Discount        :{{product.discount}}%</h6>
+                        <br>
 						<div class="action">
                             <button *ngIf="productInfoLoggedIn" type="submit" (click)="addWishlist(product)" class="btn btn-primary">Wishlist</button> &nbsp;&nbsp;
                             <button type="submit" (click)="addToCart(product)" class="btn btn-primary">Cart</button>
