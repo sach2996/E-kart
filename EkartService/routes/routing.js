@@ -33,7 +33,7 @@ routing.post('/signup',function(req,res,next){
     var users=Users.toObject(req.body);
     sess=req.session;
     dbModule.checkmail(users.email).then(function(data){
-        console.log("Sign up ",data.email);
+        //console.log("Sign up ",data.email);
         if(data.email!=users.email){
             dbModule.signup(users).then(function(data){
                 sess.users=data;

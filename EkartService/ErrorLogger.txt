@@ -1463,3 +1463,21 @@ Error: login failed
 Error: Login failed. Try again
     at C:\Users\Sachin\Documents\Workspace\Assessment\EkartService\public\javascripts\DBModule.js:51:30
     at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: searching failed
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\public\javascripts\DBModule.js:62:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: searching failed
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\public\javascripts\DBModule.js:62:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'email' of null
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\routes\Routing.js:36:37
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'email' of null
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\routes\Routing.js:36:37
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'email' of null
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\routes\Routing.js:36:37
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'email' of null
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\routes\Routing.js:37:17
+    at process._tickCallback (internal/process/next_tick.js:68:7)

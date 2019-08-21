@@ -59,7 +59,10 @@ dbModule.checkmail=function(email){
     return connection.getConnection().then(function(db){
         return db.collection("Users").findOne({"email":email}).then(function(saved){
            // console.log("details :",saved);
-            if(!saved) throw new Error("searching failed");
+            if(!saved) 
+            {
+                return "not found"
+            }
             else {
                 return saved;
             }
