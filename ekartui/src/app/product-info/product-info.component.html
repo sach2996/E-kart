@@ -18,12 +18,15 @@
 								<span class="fa fa-star"></span>
 								<span class="fa fa-star"></span>
 							</div>
-							<span class="review-no">Rating- <strong>{{product.rating}}</strong></span>
+							<span class="review-no">Rating- <strong>{{product.rating}}/5</strong></span>
                         </div>
-                        <p ><b>Description :</b>{{product.shortDesc}}.{{product.description}}</p>
+                        <p ><b>Description :</b>{{product.shortDesc}}.{{product.description}}/5</p>
 						
-                        <h6> Price: Rs.{{product.amount}}
-                        </h6>
+                        <h6 *ngIf="product.amount==product.price">Price : Rs.{{product.amount}}</h6>
+                        <h6 *ngIf="product.amount!=product.price">Effective Price : Rs.{{product.amount}}</h6>
+                        <h6 *ngIf="product.amount!=product.price">Original Price  : Rs.{{product.price}}</h6>
+                        <h6 *ngIf="product.amount!=product.price">Discount        :{{product.discount}}%</h6>
+
                         <br><br>
 						<div class="action">
                             <button *ngIf="productInfoLoggedIn" type="submit" (click)="addWishlist(product)" class="btn btn-primary">Wishlist</button> &nbsp;&nbsp;
