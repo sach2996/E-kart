@@ -35,6 +35,10 @@ export class DashboardComponent implements OnInit {
       data=>{ 
         console.log("Data",data);
         this.result=data;
+        for(var i=0;i<this.result.length;i++){
+          this.result[i].amount=this.result[i].price-((this.result[i].price*this.result[i].discount)/100);
+          
+        }
        
       }
     )

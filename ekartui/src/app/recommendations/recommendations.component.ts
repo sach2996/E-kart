@@ -6,6 +6,7 @@ import { Router } from "@angular/router";
 import { Cart } from "../shared/Cart";
 import {ProductInfoService } from "../product-info/product-info.service";
 import { RecommendationsService } from "./recommendations.service";
+import { Wishlist } from '../shared/Wishlist';
 
 @Component({
   selector: 'app-recommendations',
@@ -63,7 +64,32 @@ export class RecommendationsComponent implements OnInit {
           this.errorMessage='';
     
     }
+    addWishlist(product){
+      console.log("Resulted data" ,product);
     
+      var objWishlist=new Wishlist();
+      objWishlist.prodName=product.displayName;
+      objWishlist.category=product.category;
+      objWishlist.price=product.price;
+      objWishlist.discount=product.discount;
+      objWishlist.deliveryCharge=product.deliveryCharge;
+      
+      this.dashboardService.addWishlist(objWishlist)
+      .subscribe
+      (
+        data=>{
+          //product=data;
+          this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
+        },
+        error=>{
+          console.log("Error");
+          this.errorMessage=error.replace(/\"/g,"");
+        }
+        )
+        this.successMessage='';
+        this.errorMessage='';
+    
+    }
     prodinfo(id){
       this.productinfoService.productInfo.next(id);
       this.router.navigate(['/productinfo']);

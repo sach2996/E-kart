@@ -78,7 +78,7 @@ function validateName(c: FormControl) {
 
 function validateEmail(c: FormControl) {
  
-  let emailRegex=/^[a-zA-Z0-9.&*#$]+@[a-zA-Z0-9-]+\.([a-zA-Z])+$/;
+  let emailRegex=/^[a-zA-Z0-9.&*#$_]+@[a-zA-Z0-9-]+\.([a-zA-Z])+$/;
 
   return emailRegex.test(c.value)?null:{
     eIdValid:{

@@ -16,13 +16,14 @@ export class InfoComponent implements OnInit {
   users: Users[];
   updateForm: FormGroup;
   userID:string;
+  name:string="hu";
 
   ngOnInit() {
     this.updateForm=this.fb.group({
      
-      name:[[Validators.required,validateName]],
-      password:[[Validators.required,validatePassword]],
-      confirmPassword:[[Validators.required,validatePassword]]
+      name:['',[Validators.required,validateName]],
+      password:['',[Validators.required,validatePassword]],
+      confirmPassword:['',[Validators.required,validatePassword]]
      
     });
 
@@ -31,11 +32,12 @@ export class InfoComponent implements OnInit {
     (
       data=>{
         console.log("returned data", data);
-        this.users=data;
+        this.name=data;
+        
         
       }
     )
-    return this.users;
+    return this.name;
   }
   
   update(){
@@ -78,7 +80,7 @@ export class InfoComponent implements OnInit {
 
 function validateName(c: FormControl) {
  
-  let nameRegex=/^([A-Za-z]+)$/;
+  let nameRegex=/^([A-Za-z ]+)$/;
 
   return nameRegex.test(c.value)?null:{
     fIdValid:{
@@ -98,7 +100,9 @@ function validateEmail(c: FormControl) {
   };
 } */
 function validatePassword(c: FormControl) {
- 
+  if(c.value=="function validatePassword(c) {    let passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{6,20}$/;    return passwordRegex.test(c.value) ? null : {        pValid: {            valid: false        }    };}"){
+    return false;
+  }
   let passwordRegex=/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{6,20}$/;
 
   return passwordRegex.test(c.value)?null:{

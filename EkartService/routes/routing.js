@@ -74,6 +74,7 @@ routing.get('/userInfo',function(req,res,next){
     console.log("USER ID:",userId);
     dbModule.getUser(userId).then(function(data){
         if(data){
+            console.log("User name: ",data)
             res.json(data)
         }
         else{

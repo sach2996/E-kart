@@ -90,9 +90,11 @@ dbModule.getUser=function(userId){
     console.log("dbMODULE ",userId);
     
     return connection.getConnection().then(function (db) {
-        return db.collection("Users").find({"userId":userId}).toArray().then(function(user){
-            console.log("Users info--",user);
-            return user;
+        return db.collection("Users").find({"userId":userId}).project({_id:0,name:1}).toArray().then(function(user){
+            console.log("Users info--",user[0].name);
+            //var result=Users.toObject(user);
+            //console.log("result ",result.name);
+            return user[0].name;
         }).catch(function(err){
             return err;
         })

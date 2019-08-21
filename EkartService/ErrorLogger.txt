@@ -1481,3 +1481,35 @@ TypeError: Cannot read property 'email' of null
 TypeError: Cannot read property 'email' of null
     at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\routes\Routing.js:37:17
     at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: This email id already exists.Please use other email id
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\routes\Routing.js:46:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: This email id already exists.Please use other email id
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\routes\Routing.js:46:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed. Try again
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\public\javascripts\DBModule.js:51:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed. Try again
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\public\javascripts\DBModule.js:51:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Login failed. Try again
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\public\javascripts\DBModule.js:51:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'users' of undefined
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\routes\Routing.js:73:21
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\node_modules\express\lib\router\index.js:47:12)
+Error: Login failed. Try again
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\public\javascripts\DBModule.js:51:30
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Updation failed
+    at C:\Users\Sachin\Documents\GitHub\E-kart\EkartService\public\javascripts\DBModule.js:77:51
+    at process._tickCallback (internal/process/next_tick.js:68:7)
