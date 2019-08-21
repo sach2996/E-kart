@@ -16,13 +16,19 @@ export class WishlistComponent implements OnInit {
   errorMessage:String;
   successMessage:String;
   cart: Cart;
-  
+  loggedIn:String;
   constructor(private productinfoService: ProductInfoService,private wishlistService:WishlistService ,private dashboardService: DashboardService, private router:Router) { }
   result:Cart[];
 
   
   ngOnInit() {
-    this.view();
+    this.loggedIn=localStorage.getItem('loginStatus');
+    if(this.loggedIn){
+      this.view();
+    }
+    else{
+    this.router.navigate(['/login']);
+    }
   }; 
   moveToCart(product){
     console.log("Resulted data" ,product);
