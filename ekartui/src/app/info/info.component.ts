@@ -10,7 +10,7 @@ import { Router } from '@angular/router'
   styleUrls: ['./info.component.css']
 })
 export class InfoComponent implements OnInit {
-  changePswrd: boolean=true;
+  changePswrd: boolean=false;
   
 
   constructor(private fb: FormBuilder,private infoService:InfoService, private router:Router) { }

@@ -103,7 +103,7 @@ routing.post('/update',function(req,res,next){
     var users=Users.toObject(req.body);
     if(users.password!=null){
     dbModule.update(email,users.name,users.password).then(function(data){
-        res.json({"message":"Successfully Updated"})
+        res.json({"message":"Successfully updated"})
     }
     ).catch(function(err){
         console.log(err);
@@ -113,7 +113,7 @@ routing.post('/update',function(req,res,next){
     else{
         var password=sess.users.password;
         dbModule.update(email,users.name,password).then(function(data){
-            res.json({"message":"Successfully Updated"})
+            res.json({"message":"Username successfully Updated"})
         }
         ).catch(function(err){
             console.log(err);
