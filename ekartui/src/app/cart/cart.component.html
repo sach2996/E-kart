@@ -54,15 +54,27 @@
                             <span class="glyphicon glyphicon-remove"></span> Remove
                         </button></td>
                     </tr>
-                    <tr>
+                    <tr *ngIf="total">
                         <td colspan="4">   </td>
                         <td colspan="4">   </td>
                         <td colspan="2">   </td>
                         <td colspan="1">   </td>
                         <td colspan="1">   </td>
                         <td colspan="2"><h3>Total</h3></td>
-                        <td class="text-right" colspan="2"><h3><strong>Rs.{{total}}</strong></h3></td>
+                        <td class="text-right" colspan="2" ><h3><strong>Rs.{{total}}</strong></h3></td>
+                        
                     </tr>
+                    <tr *ngIf="!total">
+                            
+                    </tr>
+                    
+                    <tr *ngIf="!total">
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        <td colspan="10" class="text text-danger"><b>Cart is empty</b></td>
+                    </tr>
+                    <tr *ngIf="!total">
+
+                        </tr>
                     <tr>
                             <td colspan="4">   </td>
                             <td colspan="4">   </td>

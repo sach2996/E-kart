@@ -17,6 +17,7 @@
       </form>
     -->
     <ul class="navbar-nav mr-right">
+        <li class="nav-item"><a class="navbar-brand" *ngIf="loggedIn || isUserLoggedIn" [routerLink]='["/address"]'>Details</a></li>
       <li class="nav-item"><a class="navbar-brand" *ngIf="loggedIn || isUserLoggedIn" [routerLink]='["/info"]'>User Info</a></li>
       <li class="nav-item"><a class="navbar-brand" *ngIf="!loggedIn && !isUserLoggedIn" [routerLink]='["/signup"]'>Sign Up</a></li>
       <li class="nav-item"><a class="navbar-brand" *ngIf="!loggedIn && !isUserLoggedIn" [routerLink]='["/login"]'>Login</a></li>

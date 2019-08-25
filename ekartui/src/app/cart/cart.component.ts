@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from "@angular/router";
 import { Cart } from '../shared/Cart';
 import { CartService} from './cart.service';
-import { viewClassName } from '@angular/compiler';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
   selector: 'app-cart',
@@ -32,14 +32,13 @@ export class CartComponent implements OnInit {
       .subscribe
       (
         data=>{
-         // console.log("In decrement :",product);
+         console.log("In decrement :",product);
           this.cart=data;
           this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
           this.view();
         },
         error=>{
-         // console.log("Error");
-          this.errorMessage=error.replace(/\"/g,"");
+           this.errorMessage=error.replace(/\"/g,"");
         }
         )
         this.successMessage='';
@@ -90,13 +89,25 @@ export class CartComponent implements OnInit {
     (
       data=>{
         this.result=data;
+        this.total=0;
         for(var i=0;i<(this.result).length;i++){
-        //  console.log("result",data);
+          console.log("result",data);
           this.total=this.total+this.result[i].amount;
        }
       }
     )
-    return this.result,this.total;
+    if(this.result==null){
+    this.result=JSON.parse(localStorage.getItem("Product"));
+    for(var i=0;i<this.result.length;i++){
+      this.result[i].amount=(this.result[i].price-((this.result[i].price*this.result[i].discount)/100))*this.result[i].quantity;
+    }
+    this.total=0;
+    for(var i=0;i<(this.result).length;i++){
+      this.total=this.total+this.result[i].amount;
+   }
+
+    }
+  else return this.result,this.total;
   
     }
   }

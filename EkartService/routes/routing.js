@@ -7,7 +7,8 @@ var Users=require('../public/javascripts/Users')
 var UserDetails=require('../public/javascripts/UserDetails')
 var Cart=require('../public/javascripts/Cart')
 var CartDetails=require('../public/javascripts/CartDetails')
-var Wishlist=require('../public/javascripts/Wishlist')
+var Wishlist=require('../public/javascripts/Wishlist');
+var Address=require('../public/javascripts/Address');
 
 var sess;
 
@@ -145,13 +146,14 @@ routing.post('/addCart',function(req,res){
         if(err){
             res.json({"message":"Qauntity cannot exceed 4 per user"});
         }else{
-        res.json({"message":"Product added to the car"});
+        res.json({"message":"Product added to the cart"});
         }
     }).catch(function (err){
         
         next(err);
     })
 })
+
 routing.post('/modifyCart',function(req,res){
     var name=sess.users.name;
     var cart=Cart.toObject(req.body,name);
@@ -262,4 +264,59 @@ routing.get('/loggedIn',function(req,res){
         return false;
     }
 })
+
+routing.get('/address',function(req,res){
+    var name=sess.users.name;
+    dbModule.address(name).then(function(address){
+        res.json(address)
+    }).catch(function (){
+        next(err)
+    })
+})
+routing.post('/addAddress',function(req,res){
+    var name=sess.users.name;
+    var address=Address.toObject(req.body,name);
+    dbModule.addAddress(address).then(function(saved){
+        if(saved){
+        res.json({"message":"Address Added"});
+        }
+    }).catch(function (err){
+        
+        next(err);
+    })
+})
+routing.post('/modifyAddress',function(req,res){
+    var name=sess.users.name;
+    var address=Address.toObject(req.body,name);
+    console.log("Address ",address)
+    dbModule.modifyAddress(address).then(function(saved){
+        if(!saved){
+            console.log("Error");
+            res.json({"message":"No address available"});
+        }else{
+        res.json({"message":"Address updated"});
+        }
+    }).catch(function (err){
+        
+        next(err);
+    })
+})
+routing.delete('/deleteAddress/:city', function (req, res, next) {
+    var name=sess.users.name;
+    var city =req.params.city;
+    dbModule.deleteAddress(city,name).then(function (response) {
+        if (response.result.n > 0) {
+            res.json({ "message": "Successfully deleted address " })
+        }
+        else {
+            throw new Error("Sorry Cannot this address");
+
+        }
+    }).catch(function (err) {
+
+        next(err)
+    })
+})
+
+
 module.exports=routing;

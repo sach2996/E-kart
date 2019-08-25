@@ -6,6 +6,7 @@ import { Cart } from "../shared/Cart";
 import { Wishlist } from '../shared/Wishlist';
 import {ProductInfoService } from "../product-info/product-info.service";
 import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
+//import { CookieService } from 'ngx-cookie-service';
 
 @Component({
   selector: 'app-dashboard',
@@ -22,7 +23,9 @@ export class DashboardComponent implements OnInit {
   loggedIn:String;
   listResult1: Products[];
   hideDeals:boolean=false;
-
+  cart:Cart[];
+  obj=[];
+    
   constructor(private router:Router,private dashboardService: DashboardService, private productinfoService: ProductInfoService) { }
   result: Products[]=[];
   
@@ -33,8 +36,9 @@ export class DashboardComponent implements OnInit {
     .subscribe
     (
       data=>{ 
-       // console.log("Data",data);
+       //console.log("Data",data);
         this.result=data;
+        //console.log("Result",this.result);
         for(var i=0;i<this.result.length;i++){
           this.result[i].amount=this.result[i].price-((this.result[i].price*this.result[i].discount)/100);
           
@@ -42,7 +46,6 @@ export class DashboardComponent implements OnInit {
        
       }
     )
-     // console.log("In this.dashboardService", this.result)
     return this.result;
   };
   search(){
@@ -63,28 +66,40 @@ export class DashboardComponent implements OnInit {
   
   addToCart(product){
    // console.log("Resulted data" ,product.amount);
-
+   
     var objCart=new Cart();
     objCart.prodName=product.displayName;
     objCart.category=product.category;
     objCart.price=product.price;
+    objCart.quantity=1;
     objCart.discount=product.discount;
     objCart.deliveryCharge=product.deliveryCharge;
+    console.log("Object cart",objCart);
+    if(this.obj.some(data=>data.prodName===objCart.prodName)){
+      console.log("Product already exists");
+      this.obj.map((data,i)=>{
+        if(data.prodName== objCart.prodName && data.quantity<5){
+          data.quantity=data.quantity+1;
+        }
+      })
+    }else{
+    this.obj.push(objCart);
+    }
+    if(!this.loggedIn){
+      localStorage.setItem("Product",JSON.stringify(this.obj));
+      
+    }
     
     if(product.amount ==null){
       objCart.amount=0;
     }
-   // console.log("Amount ",product.amount);
-    
     this.dashboardService.addCart(objCart)
     .subscribe
     (
       data=>{
-        //product=data;
         this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
       },
       error=>{
-      //  console.log("Error");
         this.errorMessage=error.replace(/\"/g,"");
       }
       )
@@ -93,8 +108,6 @@ export class DashboardComponent implements OnInit {
 
   }
   addWishlist(product){
-    //console.log("Resulted data" ,product);
-
     var objWishlist=new Wishlist();
     objWishlist.prodName=product.displayName;
     objWishlist.category=product.category;
@@ -106,11 +119,9 @@ export class DashboardComponent implements OnInit {
     .subscribe
     (
       data=>{
-        //product=data;
         this.successMessage=(JSON.stringify(data.message)).replace(/\"/g,"");
       },
       error=>{
-       // console.log("Error");
         this.errorMessage=error.replace(/\"/g,"");
       }
       )
@@ -125,19 +136,14 @@ export class DashboardComponent implements OnInit {
 
   }
   viewId(id){
-
-   // console.log("Id is:",id);
+    // console.log("Id is:",id);
     this.productinfoService.viewId(id)
     .subscribe
     (
       data=>{
-     //   console.log("Data Returned");
        this.listResult1=data;
-        //this.successMessage=(JSON.stringify(data.bean)).replace(/\"/g,"")  ;
-        //console.log(this.successMessage);
       },
       error=>{
-     //   console.log(error)
         this.errorMessage=(JSON.stringify(error.message)).replace(/\"/g,"");
       }
     );

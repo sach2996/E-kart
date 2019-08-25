@@ -1,1 +1,164 @@
-<p>address works!</p>
+<br><div class="row justify-content-md-center"><br>
+        <button class="btn btn-primary"  (click)="viewAdd()">View Address</button> &nbsp;
+        <button class="btn btn-primary"  (click)="newAdd()">Add new Address</button><br>
+
+</div><br>
+<div class="row justify-content-md-center" *ngIf="newAddress">
+        <div class="col-md-5 col-md-offset-4">
+            <div class="panel panel-primary" >
+                <div class="panel-heading"><b>Add Address</b></div>
+                <div class="panel-body">
+    
+                    <form class="jumbotron vertical-center" [formGroup]="addressForm" (ngSubmit)="addAddress()">
+                        
+                        <div class="form-group">
+                                <label>City</label>
+                                <input type="text" formControlName="city" class="form-control" [ngClass]="{
+                                    'is-invalid': submitted && addressForm.controls.city.errors}">
+                                <div *ngIf="submitted && addressForm.controls.city.errors" class="text text-danger">
+                                    Enter a valid city.
+                                </div>
+                        </div>
+    
+                        <div class="form-group">
+                                <label>PIN</label>
+                                <input type="text" formControlName="pin" class="form-control" [ngClass]="{
+                                    'is-invalid': submitted && addressForm.controls.pin.errors}">
+                                <div *ngIf="submitted && addressForm.controls.pin.errors" class="text text-danger">
+                                    Enter a valid PIN code.
+                                </div>
+                        </div>
+    
+                        <div class="form-group">
+                                <label>Phone</label>
+                                <input type="text" formControlName="phone" class="form-control" [ngClass]="{
+                                    'is-invalid': submitted && addressForm.controls.phone.errors}">
+                                <div *ngIf="submitted && addressForm.controls.phone.errors" class="text text-danger">
+                                    Enter a valid phone number.
+                                </div>
+                        </div>
+                        <div class="form-group">
+                                <label>State</label>
+                                <input type="text" formControlName="state" class="form-control" [ngClass]="{
+                                    'is-invalid': submitted && addressForm.controls.state.errors}">
+                                <div *ngIf="submitted && addressForm.controls.state.errors" class="text text-danger">
+                                    Select a valid state
+                                </div>
+                        </div>
+    
+                        
+    
+                        
+    
+                        <br>
+                        <button type="submit"  class="btn btn-primary" >Add Address</button>
+                        <div *ngIf="errorMessage!=null" >
+                                <span class="text-danger">{{errorMessage}}</span>
+                              </div>
+                              <div *ngIf="successMessage!=null">
+                                <span class="text-success">{{successMessage}}</span>
+                              </div>
+                              <div *ngIf="errorMsg!=null" >
+                                <span class="text-danger">{{errorMsg}}</span>
+                              </div>
+                    </form>
+                    <br>
+            
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-md-center" *ngIf="!newAddress && !updateAddress">
+            <div class="col-md-5 col-md-offset-4">
+                <div class="panel panel-primary" >
+                    <div class="panel-heading"><b>Your Address</b></div>
+                    <div class="panel-body" *ngFor="let address of  result">
+                        <label><h4>Address</h4></label><br>
+                        <label><b>City</b></label>--{{address.city}}<br>
+                        <label><b>Phone No.</b></label>--{{address.phone}}<br>
+                        <label><b>PIN Code</b></label>--{{address.pin}}<br>    
+                        <label><b>State</b></label>--{{address.state}}<br> 
+                        <button type="button" class="btn btn-primary" (click)="modify(address)">
+                                <span class="glyphicon glyphicon-remove"></span> Modify
+                        </button>&nbsp;&nbsp;
+                        <button type="button" class="btn btn-danger" (click)="delete(address.city)">
+                                <span class="glyphicon glyphicon-remove"></span> Remove
+                        </button>        
+                        
+                        <br>
+                
+                </div>
+                <div *ngIf="errorMessage!=null" >
+                        <span class="text-danger">{{errorMessage}}</span>
+                      </div>
+                      <div *ngIf="successMessage!=null">
+                        <span class="text-success">{{successMessage}}</span>
+                      </div>
+                
+                </div>
+            </div>
+        </div>
+
+<!-- Modification -->
+
+<div class="row justify-content-md-center" *ngIf="!newAddress && updateAddress">
+        <div class="col-md-5 col-md-offset-4">
+            <div class="panel panel-primary" >
+                <div class="panel-heading"></div>
+                <div class="panel-body">
+    
+                    <form class="jumbotron vertical-center"  [formGroup]="addressForm" (ngSubmit)="modifyAddress()">
+                        
+                        <div class="form-group">
+                                <label>City</label>
+                                <input type="text" formControlName="city" [(value)]="result.city"  class="form-control" [ngClass]="{
+                                    'is-invalid': submitted && addressForm.controls.city.errors}">
+                                <div *ngIf="submitted && addressForm.controls.city.errors" class="text text-danger">
+                                    Enter a valid city.
+                                </div>
+                        </div>
+    
+                        <div class="form-group">
+                                <label>PIN</label>
+                                <input type="text" formControlName="pin" [(value)]="result.pin" class="form-control" [ngClass]="{
+                                    'is-invalid': submitted && addressForm.controls.pin.errors}">
+                                <div *ngIf="submitted && addressForm.controls.pin.errors" class="text text-danger">
+                                    Enter a valid PIN code.
+                                </div>
+                        </div>
+    
+                        <div class="form-group">
+                                <label>Phone</label>
+                                <input type="text" formControlName="phone" [(value)]="result.phone" class="form-control" [ngClass]="{
+                                    'is-invalid': submitted && addressForm.controls.phone.errors}">
+                                <div *ngIf="submitted && addressForm.controls.phone.errors" class="text text-danger">
+                                    Enter a valid phone number.
+                                </div>
+                        </div>
+                        <div class="form-group">
+                                <label>State</label>
+                                <input type="text" formControlName="state" [(value)]="result.state" class="form-control" [ngClass]="{
+                                    'is-invalid': submitted && addressForm.controls.state.errors }">
+                                <div *ngIf="submitted && addressForm.controls.state.errors" class="text text-danger">
+                                    Select a valid state
+                                </div>
+                        </div>
+    
+                        <br>
+                        <button type="submit"  class="btn btn-primary" >Update Address</button>
+                        <div *ngIf="errorMessage!=null" >
+                                <span class="text-danger">{{errorMessage}}</span>
+                              </div>
+                              <div *ngIf="successMessage!=null">
+                                <span class="text-success">{{successMessage}}</span>
+                              </div>
+                              <div *ngIf="errorMsg!=null" >
+                                <span class="text-danger">{{errorMsg}}</span>
+                              </div>
+                    </form>
+                    <br>
+            
+            </div>
+            </div>
+        </div>
+    </div>

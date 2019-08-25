@@ -63,6 +63,7 @@
                   <li *ngIf="loggedIn"><button type="submit" (click)="addWishlist(product)" class="btn btn-primary">Wishlist</button></li>
                   <li><button type="submit" (click)="addToCart(product)" class="btn btn-primary">Cart</button></li>
                 </ul>
+                
                 <div *ngIf="product.discount">
                   <span class="product-new-label">Discount</span>
                   <span class="product-discount-label">{{product.discount}}%</span></div>

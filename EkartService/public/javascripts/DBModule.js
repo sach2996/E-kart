@@ -236,4 +236,50 @@ dbModule.search=function(name){
         })
     })
 }
+
+dbModule.address=function(name){
+    console.log("Dbmodule Name",name)
+    return connection.getConnection().then(function (db) {
+        return db.collection("Address").find({"name":name}).toArray().then(function(address){
+            return address;
+        }).catch(function(err){
+            return err;
+        })
+    })
+}
+
+dbModule.addAddress=function(address){
+    console.log("Console ",address);
+    
+    return connection.getConnection().then(function(db){
+        return db.collection("Address").insertOne(address).then(function(collection){
+            if(!collection) throw new Error("Address not added");
+            else {
+                var data=Users.toObject(collection.ops[0]);
+                return data;
+            }
+        })
+    })
+}
+dbModule.modifyAddress=function(address){
+    console.log("DB module Address ",address)
+    return connection.getConnection().then(function (db) {
+        return db.collection("Address").updateOne({"name":address.name},{$set:{"state":address.state,"city":address.city,"pin":address.pin,"phone":address.phone}}).then(function(saved){
+            if(saved.result.nModified < 1) throw new Error("Updation failed");
+            else {
+                return saved;
+            }
+        })
+    })
+}
+dbModule.deleteAddress=function(city,name){
+    return connection.getConnection().then(function (db) {
+        return db.collection("Address").deleteOne({"name":name,"city":city}).then(function(saved){
+            if(!saved) throw new Error("Address not removed");
+            else return saved;
+        })
+    })
+}
+
+
 module.exports=dbModule;

@@ -9,6 +9,7 @@ import { SearchComponent } from './search/search.component';
 import { WishlistComponent } from './wishlist/wishlist.component';
 import { InfoComponent } from './info/info.component';
 import { ProductInfoComponent } from './product-info/product-info.component';
+import { AddressComponent } from './address/address.component';
 
 
 
@@ -22,7 +23,8 @@ const routes: Routes = [
   {path: 'search',component:SearchComponent},
   {path: 'wishlist', component:WishlistComponent},
   {path: 'info', component:InfoComponent},
-  {path: 'productinfo', component:ProductInfoComponent}
+  {path: 'productinfo', component:ProductInfoComponent},
+  {path: 'address', component:AddressComponent}
 
 ];
 
