@@ -3,6 +3,7 @@ var ProductDetails=require('./ProductDetails');
 var UserDetails=require('./UserDetails');
 var Users=require('./Users');
 var connection =require('./connections');
+var Orders=require('./Orders');
 
 var productsArray
 
@@ -278,6 +279,96 @@ dbModule.deleteAddress=function(city,name){
             if(!saved) throw new Error("Address not removed");
             else return saved;
         })
+    })
+}
+dbModule.order=function(order){
+   // console.log("Dbmodule Name",name)
+   return connection.getConnection().then(function(db){
+    return db.collection("Orders").insertOne(order).then(function(collection){
+        if(!collection) throw new Error("Order not placed");
+        else {
+            var data=Orders.toObject(collection.ops[0]);
+            return data;
+        }
+    })
+})
+}
+
+dbModule.orders=function(name){
+    console.log("Dbmodule Name",name)
+    return connection.getConnection().then(function (db) {
+        return db.collection("Orders").find({"name":name}).toArray().then(function(orders){
+            return orders;
+        }).catch(function(err){
+            return err;
+        })
+    })
+}
+
+dbModule.cancelOrder=function(name,prodName){
+    return connection.getConnection().then(function (db) {
+        return db.collection("Orders").findOne({"name":name,"prodName":prodName}).then(function(result){
+            if(result.status=='open'){
+                return db.collection("Orders").updateOne({"name":name,"prodName":prodName},{$set:{"status":"cancelled"}}).then(function(saved){
+                    if(saved.result.nModified < 1) throw new Error("Order cancellation falied.");
+                    else {
+                        return saved;
+                    }
+                })
+            }
+            else{
+                throw new Error ("You can not cancel this order")
+            }
+        })
+       
+    })
+}
+dbModule.returnOrder=function(name,prodName){
+    console.log("Current date ",new Date().toISOString());
+    let d=new Date();
+    let dd=d.setDate(d.getDate()-10)
+    console.log("10days date ",new Date(dd).toISOString());
+    return connection.getConnection().then(function (db) {
+        return db.collection("Orders").findOne({"name":name,"prodName":prodName,"date":{$gte:new Date(dd)}}).then(function(result){
+            console.log("Result date ",result);
+            
+            //if(result.status=='delivered' && result.date>=new Date(dd)){
+            if(result.status=='delivered'){
+                return db.collection("Orders").updateOne({"name":name,"prodName":prodName},{$set:{"status":"returned","date":new Date()}}).then(function(saved){
+                    if(saved.result.nModified < 1) throw new Error("Returning a product should be done within 10 days of delivery.");
+                    else {
+                        return saved;
+                    }
+                })
+            }
+            else{
+                throw new Error ("You can not return this order")
+            }
+        })
+       
+    })
+}
+dbModule.rateReview=function(name,orders){
+    let d=new Date();
+    let dd=d.setDate(d.getDate()-30)
+    console.log("Orders ",orders);
+    return connection.getConnection().then(function (db) {
+        return db.collection("Orders").findOne({"name":name,"prodName":orders.prodName,"status":{$in:['delivered','returned']},"date":{$gte:new Date(dd)}}).then(function(result){
+            console.log("in first ",result)
+            if(result.status=='delivered' || result.status=='returned'){
+                return db.collection("Orders").updateOne({"name":name,"prodName":orders.prodName},{$set:{"rating":orders.rating,"review":orders.review,"date":new Date()}}).then(function(saved){
+                    //console.log("in second ",saved)
+                    if(saved.result.nModified < 1) throw new Error("Review and rating submitted");
+                    else {
+                        return saved;
+                    }
+                })
+            }
+            else{
+                throw new Error ("Review can be provided within 30 days of delivery")
+            }
+        })
+       
     })
 }
 

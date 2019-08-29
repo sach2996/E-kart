@@ -1,7 +1,8 @@
+<br>
 <div class="row justify-content-md-center">
     <div class="col-md-5 col-md-offset-4">
         <div class="panel panel-primary" >
-            <div class="panel-heading">Sign Up</div>
+            <div class="panel-heading"><b>Sign Up</b></div>
             <div class="panel-body">
 
                 <form class="jumbotron vertical-center" [formGroup]="signupForm" (ngSubmit)="signup()">
@@ -44,7 +45,9 @@
                     
 
                     <br>
-                    <button type="submit"  class="btn btn-primary" >Register</button>
+                    <div class="col-md-12 text-center">
+                        <button type="submit"  class="btn btn-primary" >Register</button>
+                    </div>
                     <div *ngIf="errorMessage!=null" >
                             <span class="text-danger">{{errorMessage}}</span>
                           </div>

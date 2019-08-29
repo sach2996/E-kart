@@ -1,0 +1,77 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th colspan="4">Product</th>
+                        <th colspan="2">Quantity</th>
+                        <th colspan="4">Amount</th>
+                        <th colspan="4">Order Status</th>
+                        <th colspan="2"> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let product of result">
+                        <td class="col-sm-8 col-md-6" colspan="4">
+                        <div class="media">
+                            <a class="thumbnail pull-left" href="#"> <img class="pic-1" src="../../../assets/{{product.prodName}}.jpg" alt="Smiley face" height="72px" width="72px"> </a>
+                            <div class="media-body">
+                                <h6 class="title text-truncate">{{product.prodName}}</h6>
+                                <dl class="param param-inline small">
+                                        <dt>Category: </dt>
+                                        <dd>{{product.category}}</dd>
+                                      </dl>
+                            </div>
+                        </div></td>
+                        <td class="col-sm-8 col-md-6" colspan="2">
+                            <div class="center">
+                            <div class="input-group" >
+                               {{product.quantity}}
+                            </div>
+                            </div> 
+                        </td>
+                        <td class="col-sm-1 col-md-1 text-center" colspan="4"><strong>Rs.{{product.amount}}</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center" colspan="1"><strong>{{product.status}}</strong></td>
+                       
+                        <td class="col-sm-1 col-md-1" colspan="4">
+                            <button type="button" class="btn btn-danger" (click)="cancelOrder(product.prodName)" *ngIf="product.status==='open'">
+                                <span class="glyphicon glyphicon-remove"></span> Cancel
+                            </button>
+                        </td>
+                        <td class="col-sm-1 col-md-1" colspan="4">
+                            <button type="button" class="btn btn-primary" (click)="returnOrder(product.prodName)" *ngIf="product.status==='delivered'">
+                                <span class="glyphicon glyphicon-remove"></span> Return
+                            </button>
+                        </td>
+                        <td class="col-sm-1 col-md-1" colspan="6">
+                            <button type="button" class="btn btn-primary" (click)="rate()" *ngIf="product.status==='delivered' || product.status==='returned'">
+                                <span class="glyphicon glyphicon-remove"></span> Review
+                            </button>
+                        </td>
+                        <td class="col-sm-1 col-md-1" colspan="5">
+                            <form *ngIf="displayForm && (product.status==='delivered' || product.status==='returned')" [formGroup]="ratingForm" (ngSubmit)="rateReview(product.prodName)">
+                                    Rating
+                                    <select type="text" class="form-control" formControlName="rating">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                    <input type="text" placeholder="Review this product" formControlName="review" class="form-control">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                               
+                            </form>
+                                
+                        </td>
+                    </tr>
+                      
+                    
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

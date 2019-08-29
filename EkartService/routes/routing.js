@@ -9,6 +9,7 @@ var Cart=require('../public/javascripts/Cart')
 var CartDetails=require('../public/javascripts/CartDetails')
 var Wishlist=require('../public/javascripts/Wishlist');
 var Address=require('../public/javascripts/Address');
+var Orders=require('../public/javascripts/Orders');
 
 var sess;
 
@@ -316,6 +317,78 @@ routing.delete('/deleteAddress/:city', function (req, res, next) {
 
         next(err)
     })
+})
+routing.post('/order',function(req,res,next){
+    var name=sess.users.name;
+    console.log("hello");
+    
+    var order=Orders.toObject(req.body,name);
+    console.log("Order body ",order);
+    
+    dbModule.order(order).then(function(saved){
+        if(!saved){
+            res.json({"message":"Order not placed. Please try again"});
+        }else{
+            res.json({"message":"Order placed."})
+        }
+    }).catch(function(err){
+        next(err);
+    })
+})
+routing.get('/orders',function(req,res){
+    var name=sess.users.name;
+    dbModule.orders(name).then(function(orders){
+        res.json(orders)
+    }).catch(function (){
+        next(err)
+    })
+})
+routing.get('/cancelOrder/:prodName',function(req,res,next){
+    var name=sess.users.name;
+    var prodName=req.params.prodName;
+    dbModule.cancelOrder(name,prodName).then(function(saved){
+        if(saved){
+            res.json({"message":"Order cancelled successfully"})
+        }
+        else{
+            throw new Error ("Error occured");
+        }
+    }).catch(function(err){
+        next(err);
+    })
+    
+})
+routing.get('/returnOrder/:prodName',function(req,res,next){
+    var name=sess.users.name;
+    var prodName=req.params.prodName;
+    dbModule.returnOrder(name,prodName).then(function(saved){
+        if(saved){
+            res.json({"message":"Order return request submitted successfully"})
+        }
+        else{
+            throw new Error ("Error occured");
+        }
+    }).catch(function(err){
+
+        next(err);
+    })
+    
+})
+routing.post('/rateReview',function(req,res,next){
+    var name=sess.users.name;
+    var order=Orders.toObject(req.body);
+    dbModule.rateReview(name,order).then(function(saved){
+        if(saved){
+            res.json({"message":"Your inputs are accepted"})
+        }
+        else{
+            throw new Error ("Error occured");
+        }
+    }).catch(function(err){
+
+        next(err);
+    })
+    
 })
 
 

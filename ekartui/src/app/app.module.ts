@@ -23,6 +23,7 @@ import { InfoComponent } from './info/info.component';
 import { ProductInfoComponent } from './product-info/product-info.component';
 import { AddressComponent } from './address/address.component';
 import { RecommendationsComponent } from './recommendations/recommendations.component';
+import { OrdersComponent } from './orders/orders.component';
 
 
 
@@ -39,7 +40,8 @@ import { RecommendationsComponent } from './recommendations/recommendations.comp
     InfoComponent,
     ProductInfoComponent,
     AddressComponent,
-    RecommendationsComponent
+    RecommendationsComponent,
+    OrdersComponent
 
   ],
   imports: [

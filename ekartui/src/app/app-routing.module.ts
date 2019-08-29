@@ -10,6 +10,7 @@ import { WishlistComponent } from './wishlist/wishlist.component';
 import { InfoComponent } from './info/info.component';
 import { ProductInfoComponent } from './product-info/product-info.component';
 import { AddressComponent } from './address/address.component';
+import { OrdersComponent } from './orders/orders.component';
 
 
 
@@ -24,7 +25,8 @@ const routes: Routes = [
   {path: 'wishlist', component:WishlistComponent},
   {path: 'info', component:InfoComponent},
   {path: 'productinfo', component:ProductInfoComponent},
-  {path: 'address', component:AddressComponent}
+  {path: 'address', component:AddressComponent},
+  {path: 'orders',component:OrdersComponent}
 
 ];
 
